@@ -7,3 +7,10 @@
 //
 
 import Foundation
+import UIKit //gives access to UI Image
+
+struct Slot {
+    var value = 0
+    var image: UIImage = UIImage(named: "Ace")
+    var isRed = true
+}
